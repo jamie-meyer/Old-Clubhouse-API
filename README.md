@@ -18,7 +18,9 @@ How To Use This
 ---------------
 1. First, you need to jailbreak your device. Download the program here: [https://checkra.in/#release](https://checkra.in/#release). Use a USB-A to lightning cable (for some reason USB-C doesn't work) and connect your device to your mac. Follow the instructions on the jailbreak program and you'll end up with a jailbreak. Once you have jailbroken your device, install Cydia via the checka1n app (you may need to go into airplane mode).
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2ee356b-ba9e-4f9c-a07f-6ed2f8c279ec/hi.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2ee356b-ba9e-4f9c-a07f-6ed2f8c279ec/hi.png)
+    
+    <img width="895" alt="hi" src="https://user-images.githubusercontent.com/31294355/150178772-567f3d21-1af8-4252-b0fb-fe9f235396a3.png">
+
     
 2. Next, you need to download some software on your mac. I'm not going to go in to python virtual environments, but I recommend you look into them and set one up before proceeding (using Python 3 — I used 3.7). I assume for the next part you have done so (but for everything to work you don't actually need to — just highly recommended).
     
@@ -56,11 +58,13 @@ How To Use This
     ios sslpinning disable --quiet
     ```
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b40c6ffa-a07c-4154-91b9-7de316851875/hi.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b40c6ffa-a07c-4154-91b9-7de316851875/hi.png)
+    <img width="700" alt="hi1" src="https://user-images.githubusercontent.com/31294355/150178817-4b154a2f-53f6-4557-b57f-e7b8001ab7f4.png">
+
     
 9. You should now see something that looks like this when you're looking at your mitmproxy terminal window.
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb654a27-4eee-4925-8657-1492764e484f/t.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb654a27-4eee-4925-8657-1492764e484f/t.png)
+    <img width="1582" alt="t" src="https://user-images.githubusercontent.com/31294355/150178838-f83d478c-200b-4264-985c-799c580618d1.png">
+
     
 10. You should be able to click on each of the requests and see the request and response headers and data. You can also navigate through arrows. 
 11. Go through all the expected and unexpected things you'd do on the app and then go through the request logs and see if there's anything interesting. Make an API wrapper if you want. Once you find some endpoints, feel free to enter unexpected values (don't do anything overtly malicious — that'll get you in trouble and they literally have all your information tied to your device). If objection's SLL pinning bypass didn't work, try: [https://github.com/kov4l3nko/MEDUZA](https://github.com/kov4l3nko/MEDUZA)
