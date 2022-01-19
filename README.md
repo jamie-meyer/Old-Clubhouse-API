@@ -10,7 +10,7 @@ It's the Clubhouse API! Probably outdated!
 
 How To Use This
 ---------------
-1. Install the necessary requirements with `pip install -r requirements`
+1. Install the necessary requirements with `pip install -r requirements.txt`
 2. Open clubhouse_api.py and enter various tokens and things
 
 
